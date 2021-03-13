@@ -256,7 +256,8 @@ header{
 /* ---about.html--- */
 .about_pic{
   width: 200px;
-  height: auto;
+  height: 150px;
+  padding-top: 10px;
 }
 .about_container{
   width: 100%;
