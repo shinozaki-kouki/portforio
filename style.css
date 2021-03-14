@@ -450,3 +450,6 @@ text-align: justify;
     text-align: center;
     font-size: smaller;
   }
+  .blog{
+    padding-left: 30px;
+  }

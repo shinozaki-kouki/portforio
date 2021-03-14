@@ -29,50 +29,25 @@
         </header>
         <div class=font>
             <h1 class=left>blog</h1>
-            <!-- <h1 class=left>2021年1月 初詣</h1>
-        <div class=blog_container>
-            <img class=blog_img src="img/IMG_7709.jpeg">
-            <br>
-            <div>
-                <p>初日の出を拝んだあとそのまま日前宮へ。今年はコロナの影響もあり例年よりも人が少なく感じます。</p>
-                <p>おみくじの結果は末吉で可もなく不可もなくという結果に終わりました。２０２１年は朝活を心がけて時間を大切にしていきたいと思います。良い１年にできますように。</p>
-            </div>   
-        </div>
-        <h1 class=left>2021年　初日の出</h1>
-        <div class=blog_container>
-            <img class=blog_img src="img/IMG_7612.jpg">
-            <br>
-            <div>
-                <p>2020年、元旦。今年も初日の出を拝みに和歌山市に行ってきました。日の出時刻は昨年と同じ7:04。少し早めについて徐々に赤く染まる空を見ることができました。</p>
-                <p>今年は雲が多くて心配していたのですが、運良く太陽の光がはっきり見え、また一年が始まるなという気持ちで気が引き締まりました。昨年同様たくさんの人と犬で賑わっていて、飼い主を健気に待つわんこに癒されました。一年で一番犬に遭遇する日かもしれません。</p>
-            </div>   
-        </div>
-        <h1 class=left>2020年 12月　生石高原</h1>
-        <div class=blog_container>
-            <img class=blog_img src="img/FHRH0482.jpeg">
-            <br>
-            <div>
-                <p>知人と生石高原へ。ずっと行きたかった場所ですが念願叶いようやく訪れることができました。</p>
-                <p>季節外れではありましたが山頂では壮大な景色が広がっていました。また夜には満点の星空が空に広がっており迫力満点でした。また来年秋に行きたいと思います。</p>
-            </div>   
-        </div> -->
-            <main>
-                <h1 id="title"></h1>
-                <hr>
-                <div id="body"></div>
-            </main>
-                <script>
-                fetch("https://micro.microcms.io/api/v1/blog/dh7-j01e9v5a", {
-                headers: {
-                    "X-API-KEY": "cc9652d1-c01e-44a4-bf49-bb5054d67211"
-                }
-                })
-                .then(res => res.json())
-                .then(json => {
-                    document.getElementById("title").innerHTML = json.title;
-                    document.getElementById("body").innerHTML = json.body;
-                })
-                </script>
+            <div class=blog>
+                <main>
+                    <h1 id="title"></h1>
+                    <hr>
+                    <div id="body"></div>
+                </main>
+                    <script>
+                    fetch("https://s-portfolio.microcms.io/api/v1/blog/dh7-j01e9v5a", {
+                    headers: {
+                        "X-API-KEY": "cc9652d1-c01e-44a4-bf49-bb5054d67211"
+                    }
+                    })
+                    .then(res => res.json())
+                    .then(json => {
+                        document.getElementById("title").innerHTML = json.title;
+                        document.getElementById("body").innerHTML = json.body;
+                    })
+                    </script>
+            </div>
         </div> 
     </body>
 </html>
