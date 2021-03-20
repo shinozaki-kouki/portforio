@@ -250,7 +250,8 @@ header{
   }
   .works-center{
     font-size: x-large;
-    text-align : center
+    text-align : center;
+    padding-top: 100px;
   }
 
 /* ---about.html--- */
@@ -425,9 +426,6 @@ text-align: justify;
   }
   .contact{
     padding-left: 80px;
-    padding-top: 200px;
-    font-family: Helvetica, '游ゴシック', 'Yu Gothic', YuGothic, HiraKakuProN-W3, 'メイリオ', Meiryo, sans-serif; 
-  font-weight:lighter;
   }
 
   /* ---blog.html---- */
@@ -451,5 +449,5 @@ text-align: justify;
     font-size: smaller;
   }
   .blog{
-    padding-left: 30px;
+    padding-left: 80px;
   }

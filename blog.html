@@ -34,20 +34,49 @@
                     <h1 id="title"></h1>
                     <hr>
                     <div id="body"></div>
+                    <h1 id="title2"></h1>
+                    <hr>
+                    <div id="body2"></div>
+                    <h1 id="title3"></h1>
+                    <hr>
+                    <div id="body3"></div>
                 </main>
-                    <script>
-                    fetch("https://s-portfolio.microcms.io/api/v1/blog/dh7-j01e9v5a", {
-                    headers: {
-                        "X-API-KEY": "cc9652d1-c01e-44a4-bf49-bb5054d67211"
-                    }
-                    })
-                    .then(res => res.json())
-                    .then(json => {
-                        document.getElementById("title").innerHTML = json.title;
-                        document.getElementById("body").innerHTML = json.body;
-                    })
-                    </script>
+                <script>
+                fetch("https://s-portfolio.microcms.io/api/v1/blog/dh7-j01e9v5a", {
+                headers: {
+                    "X-API-KEY": "cc9652d1-c01e-44a4-bf49-bb5054d67211"
+                }
+                })
+                .then(res => res.json())
+                .then(json => {
+                    document.getElementById("title").innerHTML = json.title;
+                    document.getElementById("body").innerHTML = json.body;
+                })
+                    fetch("https://s-portfolio.microcms.io/api/v1/blog/50-p9s0_m", {
+                headers: {
+                    "X-API-KEY": "cc9652d1-c01e-44a4-bf49-bb5054d67211"
+                }
+                })
+                .then(res => res.json())
+                .then(json => {
+                    document.getElementById("title2").innerHTML = json.title;
+                    document.getElementById("body2").innerHTML = json.body;
+                })
+                fetch("https://s-portfolio.microcms.io/api/v1/blog/s-tc80ag9lb", {
+                headers: {
+                    "X-API-KEY": "cc9652d1-c01e-44a4-bf49-bb5054d67211"
+                }
+                })
+                .then(res => res.json())
+                .then(json => {
+                    document.getElementById("title3").innerHTML = json.title;
+                    document.getElementById("body3").innerHTML = json.body;
+                })
+                </script>
             </div>
         </div> 
+        <br>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.4/css/all.css">
+        <div id="page_top"><a href="index.html"></a></div>
     </body>
 </html>
