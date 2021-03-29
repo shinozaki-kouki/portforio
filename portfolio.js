@@ -1,7 +1,7 @@
 window.addEventListener('DOMContentLoaded', (event) => {
     ScrollReveal().reveal('.scroll',{
-        duration:"1500",
-        viewFactor: 0.7, 
+        duration:"1000",
+        viewFactor: 0.4, 
         reset: false,
     });   
     ScrollReveal().reveal('.box',{ 
