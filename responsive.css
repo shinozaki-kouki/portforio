@@ -11,6 +11,7 @@
     height: 40px;
     width: 40vw;
     margin: auto;
+    padding-left: initial;
   }
   table {
     border-collapse: collapse;
@@ -44,20 +45,29 @@
     width: 100px;
     height: 100px;
     margin: auto;
-    padding-bottom: 180px;
-    padding-right: 180px;
+    padding-bottom: 150px;
+    padding-right: 140px;
   }
   .photo img {
-    width: 180px;
-    height: 180px;
+    width: 150px;
+    height: 150px;
   }
   .margin {
     padding-top: 10px;
+    font-size: 30px;
+  }
+  .margin h2 {
+    font-size: 30px;
+  }
+  .margin p {
+    font-size: 15px;
   }
   .blockflex {
     padding-left: initial;
   }
-
+  .introduction {
+    font-size: 13px;
+  }
   .d-flex {
     display: initial;
   }
@@ -85,5 +95,126 @@
     height: auto;
     border: 1px solid;
     border-color: lavender;
+  }
+
+  /* ---about.html----- */
+
+  .left {
+    width: 100%;
+    border-bottom: 2px solid #dee7ec;
+  }
+  .left h1 {
+    margin-top: 150px;
+    margin-left: initial;
+    text-align: center;
+    font-size: 30px;
+  }
+  .about_pic {
+    width: 45vw;
+    height: auto;
+    margin: auto;
+    padding: 30px 0px;
+    display: block;
+    text-align: center;
+  }
+  .about_container {
+    position: absolute;
+    width: 100%;
+    margin: auto;
+    padding: 50px 0px 0px 20px;
+  }
+  .font_size p {
+    font-size: 2.5vw;
+    line-height: 1.9;
+  }
+  .about_d-flex {
+    display: initial;
+    padding-top: 50px;
+  }
+  .about_font {
+    text-align: left;
+    padding-left: 10px;
+    padding-top: 15px;
+    padding-bottom: 80px;
+    font-size: 2.2vw;
+  }
+  dl {
+    margin-left: initial;
+    margin-top: 10px;
+    width: 90%;
+  }
+  dd {
+    margin-left: 80px;
+  }
+
+  /* ---contact.html---- */
+  input,
+  textarea {
+    width: 70%;
+    font-size: 18px;
+  }
+  textarea {
+    height: 100px;
+  }
+  .contact {
+    margin: 0px 20px;
+    padding-left: initial;
+  }
+  .contact p {
+    text-align: left;
+    line-height: 30px;
+  }
+  .contact-form {
+    margin: 0px 20px;
+    padding: initial;
+    padding-top: 40px;
+    text-align: left;
+  }
+
+  /* ---works.html--- */
+  .works-center {
+    font-size: 4vw;
+  }
+
+  /* ---blog.html--- */
+  .blog {
+    margin: auto;
+    padding: 50px 10px 0px 10px;
+    margin-left: initial;
+    margin-top: initial;
+    line-height: 20px;
+    text-align: left;
+  }
+  #body {
+    width: 80%;
+  }
+  #body img {
+    width: 100%;
+  }
+  #body2 {
+    width: 80%;
+  }
+  #body2 img {
+    width: 100%;
+  }
+  #body3 {
+    width: 80%;
+  }
+  #body3 img {
+    width: 100%;
+  }
+  #title {
+    text-align: left;
+  }
+  #title2 {
+    text-align: left;
+  }
+  #title3 {
+    text-align: left;
+  }
+  .pager .pagination {
+    text-align: center;
+    margin-left: 30px;
+    margin-top: 30px;
   }
 }

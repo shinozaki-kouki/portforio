@@ -30,7 +30,7 @@ body {
 .font {
   font-family: Helvetica, "游ゴシック", "Yu Gothic", YuGothic, HiraKakuProN-W3,
     "メイリオ", Meiryo, sans-serif;
-  /* font-weight: lighter; */
+  color: #333;
 }
 .image {
   margin-top: 200px;
@@ -120,8 +120,8 @@ a {
 }
 .box {
   position: relative;
-  width: 100%;
-  height: 300px;
+  width: 100vw;
+  height: 21vw;
   background-color: rgb(245, 245, 243);
   margin-top: 80px;
 }
@@ -139,8 +139,8 @@ a {
 .flex img {
   left: 250px;
   border-radius: 50%;
-  width: 250px;
-  height: 250px;
+  width: 18vw;
+  height: 18vw;
 }
 .blockflex {
   display: block;
@@ -226,16 +226,18 @@ a {
 }
 /* ---works.html--- */
 .left {
-  text-align: left;
-  font-family: "Lato", sans-serif;
-  padding-top: 180px;
-  padding-bottom: 10px;
-  padding-left: 100px;
-  font-size: 40px;
-  font-weight: 100;
-  letter-spacing: 0.05em;
+  width: 100%;
   border-bottom: 2px solid #dee7ec;
-  color: #333;
+}
+.left h1 {
+  font-family: "Lato", sans-serif;
+  margin-top: 180px;
+  padding-bottom: 20px;
+  margin-left: 120px;
+  font-size: 40px;
+  font-weight: normal;
+  letter-spacing: 0.05em;
+  color: rgb(60, 59, 59);
 }
 .workspic {
   display: flex;
@@ -251,7 +253,7 @@ a {
   margin-left: auto;
 }
 .works-center {
-  font-size: x-large;
+  font-size: 30px;
   text-align: center;
   padding-top: 250px;
 }
@@ -261,46 +263,57 @@ a {
   width: 200px;
   height: 150px;
   padding-top: 10px;
-  margin-left: 40px;
+  padding-left: 40px;
 }
 .about_container {
-  width: 100%;
-  max-width: 960px;
-  margin-right: auto;
-  margin-left: 150px;
-  margin-top: 80px;
+  padding: 80px 0px 0px 120px;
+  margin: auto;
+}
+.font_size p {
+  font-size: 16px;
+  line-height: 1.9;
 }
 .about_d-flex {
   display: flex;
-  /* justify-content: flex-start;
-  align-items: flex-start; */
-  /* text-align: justify; */
   padding-top: 50px;
 }
 .about_font {
   padding-left: 30px;
-  padding-top: 15px;
+  padding-top: 30px;
   font-size: 14px;
 }
-.font_size {
-  font-size: 16px;
-  line-height: 1.9;
+dl {
+  margin-left: 30px;
+  margin-top: 10px;
+}
+dt {
+  float: left;
+  font-weight: bold;
+}
+
+dt::after {
+  content: "：";
+}
+dd {
+  margin-left: 120px;
 }
 /* --contact.html--- */
 input,
 textarea {
-  width: 500px;
+  width: 350px;
   margin-top: 10px;
-  margin-bottom: 30px;
-  padding: 20px;
+  margin-bottom: 20px;
+  padding: 3px;
   font-size: 18px;
   border: 1px solid #dee7ec;
-  text-align: center;
+  text-align: left;
 }
 textarea {
   height: 200px;
 }
 .contact-submit {
+  padding: 10px;
+  text-align: center;
   background-color: #d1d5d7;
   color: #889eab;
   box-shadow: 0px 5px #b9bbbd;
@@ -317,20 +330,23 @@ textarea {
   top: 5px;
 }
 .contact-form {
-  padding: 40px 400px;
+  padding: 80px 160px;
 }
 .contact {
-  padding-left: 80px;
-  padding-top: 50px;
+  padding-left: 155px;
+  padding-top: 80px;
 }
 .red {
   color: red;
   font-size: 10px;
 }
+.size {
+  width: 100%;
+}
 /* ---blog.html---- */
 
 .blog {
-  margin-left: 80px;
+  margin-left: 120px;
   margin-top: 80px;
   line-height: 30px;
   text-align: left;
@@ -339,12 +355,39 @@ textarea {
 #title {
   font-size: 30px;
 }
+#title2 {
+  font-size: 30px;
+}
+#title3 {
+  font-size: 30px;
+}
+#body p {
+  font-size: 1.15vw;
+}
+#body2 p {
+  font-size: 1.15vw;
+}
+#body3 p {
+  font-size: 1.15vw;
+}
+#body img {
+  padding-top: 20px;
+  width: 58%;
+}
+#body2 img {
+  width: 58%;
+  padding-top: 20px;
+}
+#body3 img {
+  width: 58%;
+  padding-top: 20px;
+}
+
 .pager .pagination {
   text-align: left;
   margin-left: 80px;
   margin-top: 30px;
 }
-
 .pager .pagination li {
   display: inline;
   margin: 0 2px;
@@ -386,6 +429,7 @@ textarea {
   background: rgb(218, 216, 216);
   border-radius: 50px;
 }
+
 table {
   table-layout: fixed;
 }
@@ -409,12 +453,24 @@ table tr td {
 .td1 {
   border-left-style: none;
 }
+.td1 a {
+  display: block;
+}
 .td2 {
   border-right-style: none;
+}
+.td2 a {
+  display: block;
 }
 .td3 {
   border-left-style: none;
 }
+.td3 a {
+  display: block;
+}
 .td4 {
   border-right-style: none;
+}
+.td4 a {
+  display: block;
 }
