@@ -1,4 +1,5 @@
-@media (max-width: 760px) {
+/* スマートフォン縦・横 */
+@media (max-width: 812px) {
   .site-header {
     background: initial;
     padding: 60px 0px 70px 20px;
@@ -9,7 +10,7 @@
   }
   .site-logo {
     height: 40px;
-    width: 40vw;
+    width: 35vw;
     margin: auto;
     padding-left: initial;
   }
@@ -41,11 +42,7 @@
     width: 95%;
     margin-left: 10px;
   }
-  /* .introduction {
-    text-align: left;
-  } */
   .photo {
-    /* left: initial; */
     width: 100px;
     height: 100px;
     margin: auto;
@@ -186,44 +183,41 @@
     padding: 50px 10px 0px 10px;
     margin-left: initial;
     margin-top: initial;
-    line-height: 20px;
+    line-height: 35px;
     text-align: left;
-  }
-  #body {
-    width: 80%;
   }
   #body p {
     font-size: 3vw;
+    width: 90%;
   }
   #body img {
     width: 100%;
   }
-  #body2 {
-    width: 80%;
-  }
   #body2 p {
     font-size: 3vw;
+    width: 90%;
   }
   #body2 img {
     width: 100%;
   }
-  #body3 {
-    width: 80%;
-  }
   #body3 p {
     font-size: 3vw;
+    width: 90%;
   }
   #body3 img {
     width: 100%;
   }
   #title {
     text-align: left;
+    font-size: 4vw;
   }
   #title2 {
     text-align: left;
+    font-size: 4vw;
   }
   #title3 {
     text-align: left;
+    font-size: 4vw;
   }
   .pager .pagination {
     text-align: center;
@@ -238,7 +232,7 @@
     display: block;
   }
 }
-@media (min-width: 760px) {
+@media (min-width: 768px) {
   .br-pc {
     display: block;
   }
@@ -246,3 +240,158 @@
     display: none;
   }
 }
+/* タブレット縦・横 */
+@media (min-width: 813px) and (max-width: 1024px) {
+  .relative {
+    position: relative;
+  }
+  .box {
+    position: relative;
+    width: 100vw;
+    height: 21vw;
+    background-color: rgb(245, 245, 243);
+    margin-top: 80px;
+  }
+
+  .flex {
+    bottom: 10px;
+    left: 160px;
+  }
+  .d-flex {
+    display: initial;
+  }
+  .container {
+    width: 80%;
+    margin: auto;
+    margin-bottom: 40px;
+  }
+  .yokonarabi {
+    display: initial;
+  }
+  .blog-container {
+    width: 80%;
+    margin: auto;
+    margin-bottom: 40px;
+  }
+  .yokonarabi > div {
+    width: 80%;
+    text-align: center;
+    padding: 10px;
+  }
+
+  .yokonarabi > div > img {
+    max-width: 80%;
+    height: auto;
+    border: 1px solid;
+    border-color: lavender;
+  }
+
+  #body p {
+    font-size: 1.6vw;
+    width: 75%;
+  }
+
+  #body2 p {
+    font-size: 1.6vw;
+    width: 75%;
+  }
+
+  #body3 p {
+    font-size: 1.6vw;
+    width: 75%;
+  }
+}
+
+/* @media (orientation: landscape) and (max-width: 850px) {
+  .site-header {
+    background: initial;
+    padding: 60px 0px 70px 20px;
+    position: initial;
+  }
+  .site-header nav {
+    display: none;
+  }
+  .site-logo {
+    height: 40px;
+    width: 35vw;
+    margin: auto;
+    padding-left: initial;
+  }
+  table {
+    border-collapse: collapse;
+  }
+  .table {
+    height: 10px;
+    display: block;
+  }
+
+  .flex {
+    bottom: 10px;
+    left: initial;
+    padding-top: 150px;
+    padding-left: 120px;
+  }
+  .flex img {
+    left: 250px;
+  }
+  .blockflex {
+    padding-left: 20px;
+  }
+  .d-flex {
+    display: initial;
+  }
+  .container {
+    width: 83%;
+    margin: auto;
+    margin-bottom: 40px;
+  }
+  .yokonarabi {
+    display: initial;
+  }
+  .blog-container {
+    width: 80%;
+    margin: auto;
+    margin-bottom: 40px;
+  }
+  .yokonarabi > div {
+    width: 80%;
+    text-align: center;
+    padding: 10px;
+  }
+
+  .yokonarabi > div > img {
+    max-width: 80%;
+    height: auto;
+    border: 1px solid;
+    border-color: lavender;
+  }
+}
+
+@media (orientation: landscape) and (max-width: 768px) {
+  .br-pc {
+    display: none;
+  }
+  .br-sp {
+    display: none;
+  }
+  .flex {
+    position: absolute;
+    bottom: 5px;
+    left: initial;
+    padding-top: 150px;
+    padding-left: 20px;
+  }
+  .flex img {
+    left: 250px;
+  }
+  .blockflex {
+    padding-left: 10px;
+  }
+  .introduction {
+    width: 90%;
+  }
+  .margin {
+    padding-bottom: 10px;
+    width: 90%;
+  }
+} */

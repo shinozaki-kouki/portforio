@@ -3,16 +3,19 @@ window.addEventListener('DOMContentLoaded', (event) => {
         duration:"1000",
         viewFactor: 0.3, 
         reset: false,
+        mobile: false,
     });   
     ScrollReveal().reveal('.introduce',{
         duration:"1000",
         viewFactor: 0.3, 
         reset: false,
+        mobile: false,
     });   
     ScrollReveal().reveal('.box',{
         duration:"1000",
         viewFactor: 0.3, 
         reset: false,
+        mobile: false,
     });   
     });
                 
