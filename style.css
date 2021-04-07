@@ -172,6 +172,12 @@ a {
   line-height: 0;
   color: #333;
 }
+.work {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
 .work h1 {
   text-align: center;
   padding-top: 150px;
@@ -182,7 +188,25 @@ a {
   line-height: 0;
   color: #333;
 }
-.work p {
+.box2 {
+  border: 2px dashed #000;
+  width: 250px;
+  height: 200px;
+}
+.box3 {
+  border: 2px dashed #000;
+  width: 200px;
+  height: 200px;
+}
+.work-pic {
+  width: 320px;
+  height: 210px;
+}
+.work-container {
+  width: 25%;
+  margin: 0px 40px;
+}
+/* .work p {
   text-align: center;
   padding-top: 150px;
   padding-bottom: 100px;
@@ -191,7 +215,7 @@ a {
   opacity: 0.8;
   line-height: 0;
   color: #333;
-}
+} */
 .blog-home h1 {
   text-align: center;
   padding-top: 150px;
@@ -276,11 +300,27 @@ a {
   margin-left: auto;
 }
 .works-center {
-  font-size: 30px;
-  text-align: center;
-  padding-top: 250px;
+  width: 100%;
+  margin: 0px 0px 0px 120px;
 }
-
+.works-center h1 {
+  width: 100%;
+  margin-top: 50px;
+  margin-bottom: 30px;
+  font-size: 2vw;
+  color: #333;
+  font-weight: 300;
+}
+.works-center p {
+  width: 100%;
+  margin-top: 30px;
+  font-size: 1.1vw;
+  line-height: 30px;
+  text-align: left;
+}
+.workber-pic {
+  width: 75%;
+}
 /* ---about.html--- */
 .about_pic {
   width: 200px;

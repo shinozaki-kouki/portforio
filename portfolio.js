@@ -17,7 +17,6 @@ window.addEventListener('DOMContentLoaded', (event) => {
         reset: false,
         mobile: false,
     });  
-    });
     $(function() {
         var pagetop = $('#js-scroll-fadein');   
         $(window).scroll(function () {
@@ -34,3 +33,15 @@ window.addEventListener('DOMContentLoaded', (event) => {
             return false;
         });
       });
+      $(window).resize(function(){
+        let x = $(window).width();
+        let y = 1024;
+        if (y <= x) {
+          $('.push').addClass('box2 box3');
+        }
+        else {
+          $('.push').removeClass('box2 box3');
+        }
+      });
+    });
+    

@@ -97,7 +97,14 @@
     border: 1px solid;
     border-color: lavender;
   }
-
+  .work-container {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .work-pic {
+    width: 60%;
+    height: 65%;
+  }
   /* ---about.html----- */
 
   .left {
@@ -174,9 +181,20 @@
 
   /* ---works.html--- */
   .works-center {
-    font-size: 4vw;
+    width: 95%;
+    margin: 0 auto;
+    text-align: center;
   }
-
+  .works-center h1 {
+    font-size: 3vw;
+  }
+  .works-center p {
+    font-size: 2vw;
+    text-align: center;
+    width: 90%;
+    text-align: left;
+    margin: 0 auto;
+  }
   /* ---blog.html--- */
   .blog {
     margin: auto;
@@ -317,6 +335,14 @@
   #body3 p {
     font-size: 1.6vw;
     width: 75%;
+  }
+  .work-container {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .work-pic {
+    width: 480px;
+    height: 340px;
   }
 }
 @media (orientation: landscape) and (max-width: 812px) {

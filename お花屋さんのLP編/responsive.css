@@ -1,0 +1,106 @@
+@media (max-width: 860px) {
+  .work {
+    margin-bottom: 100px;
+  }
+  .work-img {
+    margin-top: 80px;
+    margin-bottom: 80px;
+  }
+  .left-img {
+    margin-top: 80px;
+    margin-bottom: 100px;
+    width: 80%;
+    max-width: initial;
+    float: initial;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .right-img {
+    width: 80%;
+    max-width: initial;
+    float: initial;
+    /* margin-top: 160px; */
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .clearfix img {
+    width: 400px;
+    height: 400px;
+  }
+  .d-flex {
+    display: initial;
+    justify-content: initial;
+    align-items: initial;
+    text-align: center;
+    margin-top: 50px;
+    width: 100%;
+  }
+  .introduce {
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 50px;
+  }
+  .introduce h3 {
+    text-align: center;
+    font-size: 30px;
+  }
+  .introduce p {
+    text-align: center;
+  }
+
+  .information {
+    text-align: center;
+    height: 650px;
+    margin-top: 60px;
+    margin-bottom: 120px;
+    width: 100%;
+    max-width: 960px;
+  }
+  .info {
+    margin-top: 40px;
+    width: 100%;
+  }
+  .information-left {
+    float: initial;
+    width: 100%;
+    max-width: 50%;
+    margin: 0 auto;
+  }
+  .information-left img {
+    width: 80%;
+  }
+  .information-right {
+    float: initial;
+    width: 100%;
+    max-width: 55%;
+    margin-top: 30px;
+    margin: 0 auto;
+  }
+  .shopInformation__table {
+    width: 100%;
+    border-spacing: 16px;
+    text-align: left;
+    letter-spacing: 1.5px;
+    line-height: 2;
+  }
+  .footer {
+    position: relative;
+    height: 420px;
+    width: 100%;
+    margin-bottom: 24px;
+    margin-top: 200px;
+  }
+  .ft-image {
+    width: 100%;
+    height: 420px;
+    background: linear-gradient(
+        rgba(255, 255, 255, 0.6),
+        rgba(255, 255, 255, 0.6)
+      ),
+      url("img/contact_us.png");
+
+    background-size: cover;
+  }
+}
