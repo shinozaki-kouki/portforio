@@ -19,6 +19,7 @@
   background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
     url("img/header.png");
   background-size: cover;
+  background-position: center;
   text-align: center;
   color: #fff;
 }
@@ -220,7 +221,8 @@
   width: 100%;
 }
 .img {
-  width: 100%;
+  width: 80%;
+  background-position: center;
 
   height: 400px;
   object-fit: cover;
