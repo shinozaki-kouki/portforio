@@ -97,13 +97,19 @@
     border: 1px solid;
     border-color: lavender;
   }
-  .work-container {
+  .work {
+    text-align: initial;
+    justify-content: initial;
+    align-items: initial;
     width: 100%;
+  }
+  .work-container {
+    max-width: initial;
     margin: 0 auto;
   }
   .work-pic {
-    width: 60%;
-    height: 65%;
+    width: 55vw;
+    height: auto;
   }
   /* ---about.html----- */
 
@@ -337,12 +343,12 @@
     width: 75%;
   }
   .work-container {
-    width: 100%;
+    max-width: initial;
     margin: 0 auto;
   }
   .work-pic {
-    width: 480px;
-    height: 340px;
+    width: 55vw;
+    height: auto;
   }
 }
 @media (orientation: landscape) and (max-width: 812px) {
