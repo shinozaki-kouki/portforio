@@ -1,12 +1,12 @@
 window.addEventListener('DOMContentLoaded', (event) => {
     ScrollReveal().reveal('.scroll',{
-        duration:"1000",
-        viewFactor: 0.3,
+        duration:"1500",
+        viewFactor: 0.5,
         reset: false,
         mobile: false,
     });
     ScrollReveal().reveal('.introduce',{
-        duration:"1000",
+        duration:"1500",
         viewFactor: 0.3,
         reset: false,
         mobile: false,
@@ -14,6 +14,7 @@ window.addEventListener('DOMContentLoaded', (event) => {
     ScrollReveal().reveal('.box',{
         duration:"1000",
         viewFactor: 0.3,
+        delay:400,
         reset: false,
         mobile: false,
     });
