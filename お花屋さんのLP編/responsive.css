@@ -1,4 +1,7 @@
 @media (max-width: 860px) {
+  .sp {
+    display: none;
+  }
   .header__title {
     padding-top: 240px;
     font-size: 80px;
@@ -12,12 +15,26 @@
   .work {
     margin-bottom: 100px;
   }
+
   .work-img {
     margin-top: 80px;
     margin-bottom: 80px;
   }
+  .work p {
+    width: 90%;
+    display: block;
+    margin: 0 auto;
+  }
   .concept-img {
     width: 100%;
+  }
+  .concept-img img {
+    height: 200px;
+  }
+  .concept p {
+    width: 90%;
+    display: block;
+    margin: 0 auto;
   }
   .left-img {
     margin-top: 80px;
@@ -26,21 +43,56 @@
     max-width: initial;
     float: initial;
     text-align: center;
+    margin-left: auto;
+    margin-right: auto;
   }
   .left-img img {
     display: block;
-    margin: 0 auto;
-    width: 80%;
+    /* margin: 0 auto; */
+    width: 100%;
+    max-width: 320px;
+    height: 10px;
+    margin-left: -10px;
   }
+  /* .left-img p {
+    width: 90%;
+    display: block;
+    margin: 0 auto;
+  } */
   .right-img {
     width: 80%;
     max-width: initial;
     float: initial;
     /* margin-top: 160px; */
     text-align: center;
-    /* margin: 0 auto; */
+    margin-left: auto;
+    margin-right: auto;
   }
   .right-img img {
+    display: block;
+    margin-left: -10px;
+    max-width: 320px;
+    height: 10px;
+    width: 100%;
+  }
+  .decoration {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+  }
+  .decoration img {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    /* max-width: 320px;
+    height: 10px; */
+    margin-left: -40px;
+  }
+  .decoration h2 {
+    display: block;
+    margin: 0 auto;
+  }
+  .decoration p {
     display: block;
     margin: 0 auto;
   }
@@ -88,7 +140,7 @@
   .information-left {
     float: initial;
     width: 100%;
-    max-width: 50%;
+    max-width: 90%;
     margin: 0 auto;
   }
   .information-left img {
@@ -97,7 +149,7 @@
   .information-right {
     float: initial;
     width: 100%;
-    max-width: 55%;
+    max-width: 98%;
     margin-top: 30px;
     margin: 0 auto;
   }
@@ -107,6 +159,7 @@
     text-align: left;
     letter-spacing: 1.5px;
     line-height: 2;
+    margin-top: 30px;
   }
   .footer {
     position: relative;
