@@ -58,30 +58,35 @@
         <div class="d-flex">
             <div class="yokonarabi container">
                 <div class="blog-container">
-                    <?php if (have_posts()) : ?>
-                        <?php while (have_posts()) : the_post(); ?>
-                            <?php the_content(); ?>
+                    <img src="<?php echo get_template_directory_uri(); ?>/img/IMG_7612.jpg">
+                    <p>2021年、元旦。今年は初日の出を拝みに和歌山県にある和歌の浦に行って来ました。人も少なくとても気持ちの良いスタートを切ることができました。</p>
+                </div>
+                <div class="blog-container">
+                    <img src="<?php echo get_template_directory_uri(); ?>/img/IMG_7709.jpeg">
+                    <p>2021年初詣。昨年は色々あった1年でしたが今年はどんな一年になるのでしょうか。2021年は時間を大切にすることを心がけていきたいと思います。</p>
+                </div>
+                <div class="blog-container">
+                    <img src="<?php echo get_template_directory_uri(); ?>/img/FHRH0482.jpeg">
+                    <p>念願だった生石高原へ。季節外れではありましたが壮大な景色が広がっていました。夜は満点の星空が空に広がっており迫力満点でした。風邪を引きそうでしたが。</p>
                 </div>
             </div>
         </div>
-    <?php endwhile; ?>
-<?php endif; ?>
-<div class="d-flex">
-    <div class="yokonarabi container">
-        <div class="blog-container">
-            <img src="<?php echo get_template_directory_uri(); ?>/img/IMG_0028.jpeg">
-            <p>月日が経つのは早いもので、来月１３歳の誕生日を迎えます。最近は疲れているのかずっとお昼寝しています。いつまでも元気で居てほしいものです。</p>
+        <div class="d-flex">
+            <div class="yokonarabi container">
+                <div class="blog-container">
+                    <img src="<?php echo get_template_directory_uri(); ?>/img/IMG_0028.jpeg">
+                    <p>月日が経つのは早いもので、来月１３歳の誕生日を迎えます。最近は疲れているのかずっとお昼寝しています。いつまでも元気で居てほしいものです。</p>
+                </div>
+                <div class="blog-container">
+                    <img src="<?php echo get_template_directory_uri(); ?>/img/cups01.jpg">
+                    <p>甘いものが食べたくなり地元の友人と和歌山市にある「CUPS coffee & cupcakes」という喫茶店へ。ゆったりと過ごすことができいい気分転換になりました。</p>
+                </div>
+                <div class="blog-container">
+                    <img src="<?php echo get_template_directory_uri(); ?>/img/IMG_7495.jpg">
+                    <p>少し前になりますが会社の同僚と石垣島へ。台風の影響で飛行機が遅れどうなるかと思いましたが最終日は晴れてマリンスポーツを楽しむことができました。</p>
+                </div>
+            </div>
         </div>
-        <div class="blog-container">
-            <img src="<?php echo get_template_directory_uri(); ?>/img/cups01.jpg">
-            <p>甘いものが食べたくなり地元の友人と和歌山市にある「CUPS coffee & cupcakes」という喫茶店へ。ゆったりと過ごすことができいい気分転換になりました。</p>
-        </div>
-        <div class="blog-container">
-            <img src="<?php echo get_template_directory_uri(); ?>/img/IMG_7495.jpg">
-            <p>少し前になりますが会社の同僚と石垣島へ。台風の影響で飛行機が遅れどうなるかと思いましたが最終日は晴れてマリンスポーツを楽しむことができました。</p>
-        </div>
-    </div>
-</div>
     </div>
 </div>
 </div>
